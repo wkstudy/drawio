@@ -1,11 +1,76 @@
-<mxfile host="app.diagrams.net" modified="2023-04-26T08:23:47.013Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="5c_LC3z28280ukSqscXi" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-26T08:37:03.947Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="U6R8xhYj5VB9B5gQH1Nc" version="21.2.1" type="github">
   <diagram name="第 1 页" id="D8tcN228kwnV6EkPNY0M">
     <mxGraphModel dx="1349" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="trFkUXKZbY9hSqSyPZKR-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="trFkUXKZbY9hSqSyPZKR-1" target="trFkUXKZbY9hSqSyPZKR-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="trFkUXKZbY9hSqSyPZKR-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="trFkUXKZbY9hSqSyPZKR-1" target="trFkUXKZbY9hSqSyPZKR-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="414" y="160" />
+              <mxPoint x="680" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="trFkUXKZbY9hSqSyPZKR-1" value="&lt;font style=&quot;font-size: 18px;&quot; face=&quot;Times New Roman&quot;&gt;effect依赖怎么写&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="304" y="60" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="trFkUXKZbY9hSqSyPZKR-2" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;需要重新出发effect的时候设置依赖&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="205" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="trFkUXKZbY9hSqSyPZKR-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="trFkUXKZbY9hSqSyPZKR-4" target="trFkUXKZbY9hSqSyPZKR-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="trFkUXKZbY9hSqSyPZKR-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="trFkUXKZbY9hSqSyPZKR-4" target="trFkUXKZbY9hSqSyPZKR-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="trFkUXKZbY9hSqSyPZKR-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="trFkUXKZbY9hSqSyPZKR-4" target="trFkUXKZbY9hSqSyPZKR-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="trFkUXKZbY9hSqSyPZKR-4" value="&lt;font style=&quot;font-size: 18px;&quot; face=&quot;Times New Roman&quot;&gt;effect中用到的组件内的所有值都要写&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="205" width="220" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="trFkUXKZbY9hSqSyPZKR-6" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;诚实的列出用到的所有值&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="415" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="trFkUXKZbY9hSqSyPZKR-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="trFkUXKZbY9hSqSyPZKR-8" target="trFkUXKZbY9hSqSyPZKR-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="trFkUXKZbY9hSqSyPZKR-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="trFkUXKZbY9hSqSyPZKR-8" target="trFkUXKZbY9hSqSyPZKR-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="trFkUXKZbY9hSqSyPZKR-8" value="&lt;font style=&quot;font-size: 18px;&quot; face=&quot;Times New Roman&quot;&gt;优化effect代码，减少依赖&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="415" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="trFkUXKZbY9hSqSyPZKR-10" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;setCount(c =&amp;gt; c + 1)&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="635" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="trFkUXKZbY9hSqSyPZKR-12" value="&lt;font style=&quot;font-size: 18px;&quot; face=&quot;Times New Roman&quot;&gt;useReducer&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="635" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="trFkUXKZbY9hSqSyPZKR-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="trFkUXKZbY9hSqSyPZKR-15" target="trFkUXKZbY9hSqSyPZKR-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="trFkUXKZbY9hSqSyPZKR-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="trFkUXKZbY9hSqSyPZKR-15" target="trFkUXKZbY9hSqSyPZKR-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="trFkUXKZbY9hSqSyPZKR-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="trFkUXKZbY9hSqSyPZKR-15" target="trFkUXKZbY9hSqSyPZKR-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="trFkUXKZbY9hSqSyPZKR-15" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;函数怎么处理&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="270" width="220" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="trFkUXKZbY9hSqSyPZKR-17" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;不依赖组件内的值，直接放到组件外部&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="400" width="220" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="trFkUXKZbY9hSqSyPZKR-19" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;不需要复用的话直接定义到effect里&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="400" width="220" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="trFkUXKZbY9hSqSyPZKR-21" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;需要服用使用usecallback&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1590" y="400" width="220" height="55" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
